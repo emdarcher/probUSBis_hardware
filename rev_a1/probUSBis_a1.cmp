@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 03 Sep 2014 05:30:54 AM PDT
+
+BeginCmp
+TimeStamp = /54067E1E;
+Reference = C1;
+ValeurCmp = 10uF_CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065627;
+Reference = C2;
+ValeurCmp = 100nF_C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /540652B1;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /54066975;
+Reference = D1;
+ValeurCmp = Protect_DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065093;
+Reference = D2;
+ValeurCmp = 3.6V_ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /540650A2;
+Reference = D3;
+ValeurCmp = 3.6V_ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5406479C;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54067702;
+Reference = D5;
+ValeurCmp = USER_LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065142;
+Reference = D6;
+ValeurCmp = Si_DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54065151;
+Reference = D7;
+ValeurCmp = Si_DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54067C92;
+Reference = D8;
+ValeurCmp = ON_LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5406436D;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5406AD07;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54064EE5;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5406575D;
+Reference = P1;
+ValeurCmp = USB_A_MALE;
+IdModule  = USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54067469;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54067AAD;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /540654DB;
+Reference = R1;
+ValeurCmp = 1.5K_R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /540652D7;
+Reference = R2;
+ValeurCmp = 68R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /540652C5;
+Reference = R3;
+ValeurCmp = 68R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54067711;
+Reference = R4;
+ValeurCmp = 1K_R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54067CB0;
+Reference = R5;
+ValeurCmp = 1K_R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /540646C9;
+Reference = U1;
+ValeurCmp = LM78L05ACZ;
+IdModule  = TO92-123;
+EndCmp
+
+EndListe
