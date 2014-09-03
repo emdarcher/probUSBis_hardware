@@ -29,15 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:probUSBis_a1-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "probUSBis_a1"
 Date ""
-Rev ""
-Comp ""
+Rev "a1"
+Comp "Durrantics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -460,9 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 4600 5550 5150
 Wire Wire Line
-	4550 3600 4400 3600
-Wire Wire Line
-	4400 3300 4400 4650
+	4050 3600 4550 3600
 Wire Wire Line
 	4400 4650 5450 4650
 Wire Wire Line
@@ -667,4 +666,23 @@ Wire Wire Line
 Wire Wire Line
 	3200 2350 3400 2350
 Connection ~ 3400 2350
+$Comp
+L JUMPER JP?
+U 1 1 5406AD07
+P 4050 3300
+F 0 "JP?" H 4050 3450 60  0000 C CNN
+F 1 "JUMPER" H 4050 3220 40  0000 C CNN
+F 2 "" H 4050 3300 60  0000 C CNN
+F 3 "" H 4050 3300 60  0000 C CNN
+	1    4050 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 4650 4400 3600
+Wire Wire Line
+	4050 3000 4200 3000
+Wire Wire Line
+	4200 3000 4200 3300
+Wire Wire Line
+	4200 3300 4400 3300
 $EndSCHEMATC
