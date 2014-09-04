@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 03 Sep 2014 05:30:54 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 04 Sep 2014 03:32:50 PM PDT
 
 BeginCmp
 TimeStamp = /54067E1E;
@@ -88,7 +88,7 @@ BeginCmp
 TimeStamp = /5406AD07;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
