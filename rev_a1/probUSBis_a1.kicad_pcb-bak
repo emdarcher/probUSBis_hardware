@@ -5,7 +5,7 @@
     (no_connects 52)
     (area 93.996934 90.096623 152.40127 115.23345)
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 23)
@@ -1003,6 +1003,9 @@
     )
   )
 
+  (gr_text VCC (at 146 111.76 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.1)))
+  )
   (gr_text "   GND" (at 146 109.9 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
