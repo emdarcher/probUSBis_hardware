@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 04 Sep 2014 03:32:50 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 04 Sep 2014 10:49:04 PM PDT
 
 BeginCmp
 TimeStamp = /54067E1E;
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /540646C9;
 Reference = U1;
 ValeurCmp = LM78L05ACZ;
-IdModule  = TO92-123;
+IdModule  = TO92;
 EndCmp
 
 EndListe

@@ -37,50 +37,50 @@
       (place C1 142240 -93980 front 180 (PN 10uF_CP1))
     )
     (component C1
-      (place C2 133350 -111760 front 0 (PN 100nF_C))
+      (place C2 130600 -111760 front 0 (PN 100nF_C))
     )
     (component USB_MINI_B
-      (place CON1 110490 -104140 front 0 (PN "USB-MINI-B"))
+      (place CON1 109220 -108000 front 0 (PN "USB-MINI-B"))
     )
     (component D3
       (place D1 116840 -97790 front 90 (PN Protect_DIODE))
       (place D2 116840 -107950 front 90 (PN 3.6V_ZENER))
       (place D3 119380 -107950 front 90 (PN 3.6V_ZENER))
-      (place D4 140970 -111760 front 0 (PN DIODE))
+      (place D4 130500 -97500 front 180 (PN DIODE))
       (place D6 121920 -97790 front 90 (PN Si_DIODE))
       (place D7 119380 -97790 front 270 (PN Si_DIODE))
     )
     (component "LED-3MM"
-      (place D5 138430 -101600 front 0 (PN USER_LED))
-      (place D8 128270 -111760 front 180 (PN ON_LED))
+      (place D5 138700 -100000 front 0 (PN USER_LED))
+      (place D8 125500 -111760 front 270 (PN ON_LED))
     )
     (component "DIP-8__300_ELL"
       (place IC1 130810 -104140 front 270 (PN "ATTINY85-P"))
     )
     (component PIN_ARRAY_3X1
-      (place JP2 129540 -93980 front 0 (PN JUMPER3))
+      (place JP2 128500 -93000 front 0 (PN JUMPER3))
     )
     (component USB_A
-      (place P1 110490 -104140 front 180 (PN USB_A_MALE))
+      (place P1 109800 -100500 front 180 (PN USB_A_MALE))
     )
     (component "SIL-8"
       (place P2 148590 -102870 front 270 (PN CONN_8))
     )
     (component "SIL-4"
-      (place P3 143510 -104140 front 90 (PN CONN_4))
+      (place P3 139700 -111760 front 0 (PN CONN_4))
     )
     (component R1
-      (place R1 125730 -97790 front 180 (PN 1.5K_R))
+      (place R1 124460 -98000 front 270 (PN 1.5K_R))
       (place R2 124460 -102870 front 270 (PN 68R))
-      (place R3 123190 -106680 front 0 (PN 68R))
-      (place R4 138430 -107950 front 180 (PN 1K_R))
-      (place R5 123190 -110490 front 0 (PN 1K_R))
+      (place R3 121920 -106680 front 270 (PN 68R))
+      (place R4 142600 -99060 front 90 (PN 1K_R))
+      (place R5 121920 -111760 front 270 (PN 1K_R))
     )
     (component "TO92-123"
-      (place U1 138430 -95250 front 90 (PN LM78L05ACZ))
+      (place U1 137160 -93980 front 90 (PN LM78L05ACZ))
     )
     (component SM0603
-      (place JP1 137160 -105410 front 90 (PN JUMPER))
+      (place JP1 137160 -104140 back 270 (PN JUMPER))
     )
   )
   (library
