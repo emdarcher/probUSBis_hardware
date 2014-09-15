@@ -34,7 +34,7 @@
   )
   (placement
     (component C1V5
-      (place C1 142240 -93980 front 180 (PN 10uF_CP1))
+      (place C1 142240 -93980 front 270 (PN 10uF_CP1))
     )
     (component C1
       (place C2 130600 -111760 front 0 (PN 100nF_C))
@@ -76,11 +76,11 @@
       (place R4 142600 -99060 front 90 (PN 1K_R))
       (place R5 121920 -111760 front 270 (PN 1K_R))
     )
-    (component "TO92-123"
-      (place U1 137160 -93980 front 90 (PN LM78L05ACZ))
-    )
     (component SM0603
       (place JP1 137160 -104140 back 270 (PN JUMPER))
+    )
+    (component TO92
+      (place U1 137160 -93980 front 90 (PN LM78L05ACZ))
     )
   )
   (library
@@ -218,7 +218,15 @@
       (pin Round[A]Pad_1397_um 1 -1270 0)
       (pin Round[A]Pad_1397_um 2 1270 0)
     )
-    (image "TO92-123"
+    (image SM0603
+      (outline (path signal 127  -1143 635  1143 635))
+      (outline (path signal 127  1143 635  1143 -635))
+      (outline (path signal 127  1143 -635  -1143 -635))
+      (outline (path signal 127  -1143 -635  -1143 635))
+      (pin Rect[T]Pad_635x1143_um 1 -762 0)
+      (pin Rect[T]Pad_635x1143_um 2 762 0)
+    )
+    (image TO92
       (outline (path signal 304.8  -1270 -2540  2540 1270))
       (outline (path signal 304.8  2540 1270  2540 2540))
       (outline (path signal 304.8  2540 2540  1270 3810))
@@ -227,17 +235,9 @@
       (outline (path signal 304.8  -3810 1270  -3810 -1270))
       (outline (path signal 304.8  -3810 -1270  -2540 -2540))
       (outline (path signal 304.8  -2540 -2540  -1270 -2540))
-      (pin Rect[A]Pad_1397x1397_um 3 1270 1270)
+      (pin Rect[A]Pad_1397x1397_um 1 1270 1270)
       (pin Round[A]Pad_1397_um 2 -1270 1270)
-      (pin Round[A]Pad_1397_um 1 -1270 -1270)
-    )
-    (image SM0603
-      (outline (path signal 127  -1143 635  1143 635))
-      (outline (path signal 127  1143 635  1143 -635))
-      (outline (path signal 127  1143 -635  -1143 -635))
-      (outline (path signal 127  -1143 -635  -1143 635))
-      (pin Rect[T]Pad_635x1143_um 1 -762 0)
-      (pin Rect[T]Pad_635x1143_um 2 762 0)
+      (pin Round[A]Pad_1397_um 3 -1270 -1270)
     )
     (padstack Round[A]Pad_1397_um
       (shape (circle F.Cu 1397))
