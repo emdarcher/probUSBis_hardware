@@ -623,13 +623,13 @@
     )
   )
 
-  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 4C1130E0) (tstamp 5408E3B7)
+  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 5417D21E) (tstamp 5408E3B7)
     (at 128.5 93)
     (descr "Connecteur 3 pins")
     (tags "CONN DEV")
     (path /54064EE5)
-    (fp_text reference JP2 (at 0.254 -2.159) (layer F.SilkS)
-      (effects (font (size 1.016 1.016) (thickness 0.1524)))
+    (fp_text reference JP2 (at 4.85 -0.29) (layer F.SilkS)
+      (effects (font (size 0.8 0.8) (thickness 0.1524)))
     )
     (fp_text value JUMPER3 (at 0 -2.159) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
@@ -700,15 +700,15 @@
     )
   )
 
-  (module SIL-8 (layer F.Cu) (tedit 5417D05B) (tstamp 5408E3D6)
+  (module SIL-8 (layer F.Cu) (tedit 5417D288) (tstamp 5408E3D6)
     (at 148.59 102.87 270)
     (descr "Connecteur 8 pins")
     (tags "CONN DEV")
     (path /54067469)
-    (fp_text reference P2 (at -6.35 -2.54 270) (layer F.SilkS)
-      (effects (font (size 1.72974 1.08712) (thickness 0.3048)))
+    (fp_text reference P2 (at -6.35 -2.54 270) (layer F.SilkS) hide
+      (effects (font (size 1.72974 1.08712) (thickness 0.27178)))
     )
-    (fp_text value CONN_8 (at -11.43 0 360) (layer F.SilkS)
+    (fp_text value CONN_8 (at 11.43 1 360) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_line (start -10.16 -1.27) (end 10.16 -1.27) (layer F.SilkS) (width 0.3048))
