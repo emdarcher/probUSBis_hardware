@@ -1,4 +1,4 @@
-update=Mon 15 Sep 2014 09:13:23 PM PDT
+update=Mon 15 Sep 2014 09:58:11 PM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -89,3 +89,7 @@ LibName18=emdarcher_logo32x32_try1
 LibName19=emdarcher_logo128x128_try1
 LibName20=emdarcher_logo128x128_neg_try1
 LibName21=emdarcher_logo128x128_flip_try1
+LibName22=oshw-logo-kicad-copper-10mm
+LibName23=OPENHARDWARE
+LibName24=oshw_100px_flip_try1
+LibName25=just_oshw_logo_try2
