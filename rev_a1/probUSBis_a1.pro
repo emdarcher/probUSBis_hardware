@@ -1,6 +1,6 @@
-update=Mon 15 Sep 2014 09:58:11 PM PDT
+update=Wed 17 Sep 2014 04:26:35 PM PDT
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -45,8 +45,6 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -93,3 +91,5 @@ LibName22=oshw-logo-kicad-copper-10mm
 LibName23=OPENHARDWARE
 LibName24=oshw_100px_flip_try1
 LibName25=just_oshw_logo_try2
+[general]
+version=1
