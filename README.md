@@ -8,4 +8,4 @@ This board is heavily inspired and based off of the [LittleWire](http://littlewi
 
 The files are being made in KiCAD, but PDFs of the schematics will be made for releases.
 
-
+Link to the [Hackaday Projects page](http://hackaday.io/project/3035) for this thing.
