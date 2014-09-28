@@ -1,6 +1,6 @@
-update=Wed 17 Sep 2014 04:26:35 PM PDT
+update=Sun 28 Sep 2014 02:58:55 PM PDT
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -45,14 +45,16 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    1.016000"
+PadDrillOvalY="    1.016000"
+PadSizeH="    1.524000"
+PadSizeV="    1.524000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -91,5 +93,5 @@ LibName22=oshw-logo-kicad-copper-10mm
 LibName23=OPENHARDWARE
 LibName24=oshw_100px_flip_try1
 LibName25=just_oshw_logo_try2
-[general]
-version=1
+LibName26=pin8x1_conv
+LibName27=pin4x1_conv
