@@ -11,4 +11,4 @@ The files are being made in KiCAD, but PDFs of the schematics will be made for r
 Link to the [Hackaday Projects page](http://hackaday.io/project/3035) for this thing.
 
 here is an image of the rev_a1 schamatic:
-![rev_a1_schematic](rev_a1/probUSBis_a1_sch.png)]
+![rev_a1_schematic](rev_a1/probUSBis_a1_sch.png)
